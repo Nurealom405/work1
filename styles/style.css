@@ -41,8 +41,8 @@ p {
 
   /* background-color: aqua; */
 }
-.base-section p{
-    margin-bottom: 30px;
+.base-section p {
+  margin-bottom: 30px;
 }
 .section-title {
   font-weight: 700;
@@ -115,9 +115,41 @@ p {
   padding-right: 24px;
 }
 .donate-item3 {
-    background: lightgoldenrodyellow;
-    border-radius: 5px;
+  background: lightgoldenrodyellow;
+  border-radius: 5px;
   margin: 20px;
   padding-left: 24px;
   padding-right: 24px;
 }
+.blog-part1 h5,
+.blog-part1 p {
+  /* display: none; */
+  text-align: justify;
+  margin-bottom: 28px;
+}
+.parent-blog {
+  display: flex;
+  gap: 180px;
+}
+.blog-part1 {
+  width: 493px;
+  height: 374px;
+}
+.blog-part1 p {
+  margin-bottom: 30px;
+}
+.blog-part2 img{
+    width: 560px;
+    height: 477px;
+}
+.btn-third {
+  background: #ff5959;
+  border-radius: 5px;
+  width: 230px;
+  height: 56px;
+  padding: auto;
+  color: white;
+  border: none;
+  /* margin: 10px 640px 20px 640px; */
+}
+
